@@ -48,6 +48,16 @@
 
 ### Momentum
 
+- Tile based game where every subsequent move of the same direction makes the player move further.
+
+```
+██████....   ██████....   ██████....   ██████....   ██████....
+.@...█.... → ..@....... → ....@█.... ↓ .....█.... ↓ .....█....
+██...█████   ██...█████   ██...█████   ██..@█████   ██...█████
+.█........   .█........   .█........   .█........   .█........
+.█.█.█████   .█.█.█████   .█.█.█████   .█.█.█████   .█.█@█████
+```
+
 ### Automation
 
 - Dungeon crawler where you place machines to move the player. Machines also affect mobs. Set machines during planning phase, execute and review the setup during an execution phase.

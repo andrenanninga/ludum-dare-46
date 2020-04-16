@@ -6,39 +6,56 @@
 
 ## Themes
 
-- _Dreams_
+### Dreams
 
-> Combine thought bubbles to create new thoughts. Add or subtract icons to create other icons, the goal is to reach a specific icon.
+- Combine thought bubbles to create new thoughts. Add or subtract icons to create other icons, the goal is to reach a specific icon.
 
-- _You are the power source_
-- _Turn a violent genre non-violent_
+### You are the power source
 
-> Roguelike?
+- Puzzle game where you move a battery (round or rectangular) into the correct orientation. Every move flips or rolls the battery.
 
-- _An abandoned world_
-- _1 minute to prepare_
-- _Decay_
+```
+...........   ...........   ...........
+....[+]....   ...........   ....[-]....
+....|█|.... → ........... → ....|█|....
+....[-]....   ..[-]█[+]..   ....[+]....
+...........   ...........   ...........
+```
 
-> Roguelike where the dungeon becomes smaller as tiles collapse.
+### Turn a violent genre non-violent
 
-- _Side effects_
+- Roguelike?
 
-> Tile based game where every movement of the player is mirrored by enemies. Every enemy maps movement differently. Try and reach the end of a level without getting caught.
+### An abandoned world
 
-- _Fragile_
+### 1 minute to prepare
 
-> With every/certain moves part of the level collapses.
+### Decay
 
-- _Outdated technology_
-- _Ruins_
-- _Momentum_
-- _Automation_
+- Roguelike where the dungeon becomes smaller as tiles collapse.
 
-> Dungeon crawler where you place machines to move the player. Machines also affect mobs. Set machines during planning phase, execute and review the setup during an execution phase.
+### Side effects
 
-- _Keep it alive_
-- _Garden_
+- Tile based game where every movement of the player is mirrored by enemies. Every enemy maps movement differently. Try and reach the end of a level without getting caught.
 
-> Strawberry shooter. Bullet hell game where you play as a strawberry shooting its own seeds. Can also plant seeds to grow respawn points. Die when you run out of seeds.
+### Fragile
 
-- _Connections_
+- With every/certain moves part of the level collapses.
+
+### Outdated technology
+
+### Ruins
+
+### Momentum
+
+### Automation
+
+- Dungeon crawler where you place machines to move the player. Machines also affect mobs. Set machines during planning phase, execute and review the setup during an execution phase.
+
+### Keep it alive
+
+### Garden
+
+- Strawberry shooter. Bullet hell game where you play as a strawberry shooting its own seeds. Can also plant seeds to grow respawn points. Die when you run out of seeds.
+
+### Connections

@@ -5,7 +5,11 @@
     "@typescript-eslint/eslint-plugin"
   ],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.json",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
   },
   "env": {
     "browser": true

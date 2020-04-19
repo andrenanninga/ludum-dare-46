@@ -4,7 +4,25 @@
 
 > Ludum Dare is an online event where games are made from scratch in a weekend. Check us out every April and October!
 
-## Themes
+## Theme: "Keep it alive"
+
+Puzzle game where you move a battery (round or rectangular) into the correct orientation. Every move flips or rolls the battery. The goal is to position the battery correctly into a socket to power a device keeping it alive.
+
+```
+...........   ...........   ...........
+....[+]....   ...........   ....[-]....
+....|█|.... → ........... → ....|█|....
+....[-]....   ..[-]█[+]..   ....[+]....
+...........   ...........   ...........
+```
+
+**Other ideas:**
+
+- Grow a plant, control both roots and stalks at the same time. One captures water other captures sunlight. Somehow balance both sides.
+
+- Keep a city alive, provide deliveries.
+
+## Runner up themes
 
 ### Dreams
 
@@ -24,7 +42,7 @@
 
 ### Turn a violent genre non-violent
 
-- Roguelike?
+- Violent genres, shooter, rpg, roguelike, rts, shoot-em-up,
 
 ### An abandoned world
 

@@ -12,7 +12,11 @@
     }
   },
   "env": {
+    "es6": true,
     "browser": true
   },
-  "rules": {}
+  "rules": {
+    "no-dupe-class-members": "off",
+    "no-unused-vars": "off"
+  }
 }

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="11">
+ <editorsettings>
+  <export target="menu.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="four-color" tilewidth="16" tileheight="16" tilecount="250" columns="10">
+  <image source="four-color.png" width="160" height="400"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+2684354697,3221225611,3221225611,3221225609,128,128,128,128,128,128,
+166,89,90,2684354718,1073741983,128,128,128,40,1610612895,
+176,128,128,2684354686,40,128,2684354697,3221225611,3221225611,158,
+2684354699,145,128,180,3221225618,128,146,89,90,159,
+137,1610612862,128,190,2684354686,40,146,128,128,2147483814,
+40,1610612894,2147483738,2147483737,3758096532,158,126,1610612885,2684354709,2147483824,
+1610612883,2684354707,1610612862,128,128,1610612826,128,128,128,1610612875,
+133,134,2684354699,145,128,1610612825,154,89,90,1073741983,
+194,195,196,197,139,184,205,206,139,40
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,1610612896,0,0,0,0,96,0,
+0,0,0,0,92,0,0,0,0,3221225649,
+0,0,0,0,0,0,0,0,0,1610612896,
+0,0,0,0,0,94,0,0,0,0,
+93,2684354720,0,0,0,1073741994,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1610612896,
+0,0,0,0,0,0,0,0,0,95
+</data>
+ </layer>
+ <layer id="4" name="Tile Layer 3" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,101,0,
+0,0,0,0,101,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,101,0,0,0,0,
+101,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,101
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="3" name="socket" gid="56" x="16" y="32" width="16" height="16"/>
+  <object id="4" name="socket" gid="65" x="32" y="96" width="16" height="16"/>
+  <object id="5" name="socket" gid="55" x="80" y="128" width="16" height="16"/>
+  <object id="7" name="socket" gid="56" x="112" y="128" width="16" height="16"/>
+  <object id="8" name="socket" gid="56" x="112" y="64" width="16" height="16"/>
+  <object id="9" name="battery" gid="12" x="16" y="32" width="16" height="16"/>
+ </objectgroup>
+</map>

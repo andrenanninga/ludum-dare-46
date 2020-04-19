@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="8">
+ <editorsettings>
+  <export target="3-third.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="four-color" tilewidth="16" tileheight="16" tilecount="250" columns="10">
+  <image source="four-color.png" width="160" height="400"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+2684354697,1073741962,3221225611,3221225611,1073741962,3221225608,1073741962,3221225611,1073741962,3221225609,
+2684354684,133,134,128,148,3221225631,1610612894,3221225562,3221225561,1610612875,
+2684354685,128,128,128,128,3221225630,128,128,128,3221225648,
+3758096509,135,128,128,128,3221225630,2147483802,128,128,3221225638,
+3758096508,128,128,3221225631,2684354718,2684354689,2684354707,128,128,1610612875,
+2684354699,145,154,1610612826,128,2684354689,180,128,128,3221225618,
+137,139,1610612862,1610612825,145,2684354689,190,128,128,3221225618,
+146,2684354686,137,1610612902,1610612912,207,1610612893,128,145,3221225618,
+137,1610612882,128,128,128,137,138,139,138,1610612873
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2684354690,0,0,0,0,
+0,0,0,0,0,2684354680,0,0,0,0,
+0,0,0,0,0,2684354680,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+2684354737,3221225649,0,0,0,0,0,0,0,0,
+0,0,3221225649,0,0,208,0,0,0,0,
+0,0,1610612913,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="battery" gid="22" x="32" y="48" width="16" height="16"/>
+  <object id="2" name="battery" gid="12" x="96" y="128" width="16" height="16"/>
+  <object id="4" name="counter" gid="40" x="80" y="80" width="16" height="16"/>
+  <object id="5" name="socket" gid="65" x="112" y="32" width="16" height="16"/>
+  <object id="7" name="socket" gid="55" x="48" y="112" width="16" height="16"/>
+ </objectgroup>
+</map>

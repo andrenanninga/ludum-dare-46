@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="7">
+ <editorsettings>
+  <export target="4-fourth.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="four-color" tilewidth="16" tileheight="16" tilecount="250" columns="10">
+  <image source="four-color.png" width="160" height="400"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+1610612883,129,2684354707,147,1610612883,2684354707,147,2684354687,1610612883,2684354707,
+147,133,134,3221225619,148,128,3221225619,128,2684354649,3221225599,
+3221225619,135,128,2684354695,128,128,2684354695,128,2684354650,147,
+1610612883,2684354707,128,154,3221225631,536871070,536871070,536871070,536871071,3221225619,
+147,1610612883,3758096543,3758096542,129,129,2684354707,1610612883,129,2684354707,
+2684354689,128,2147483806,128,3221225619,133,134,128,180,147,
+3221225619,154,2147483806,128,128,128,128,128,190,3221225619,
+2684354698,2684354707,2147483807,536871070,3221225562,3221225561,128,128,145,147,
+128,1610612883,129,129,2684354707,1610612883,138,138,2684354707,3221225619
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,3221225602,120,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3221225649,2684354737,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="battery" gid="21" x="32" y="48" width="16" height="16"/>
+  <object id="2" name="battery" gid="12" x="112" y="128" width="16" height="16"/>
+  <object id="4" name="socket" gid="66" x="128" y="48" width="16" height="16"/>
+  <object id="5" name="socket" gid="65" x="64" y="128" width="16" height="16"/>
+  <object id="6" name="counter" gid="40" x="64" y="80" width="16" height="16"/>
+ </objectgroup>
+</map>

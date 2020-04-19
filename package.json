@@ -25,6 +25,9 @@
 		"*.{ts,tsx}": "eslint --cache --fix",
 		"*.{ts,tsx,css,md}": "prettier --write"
 	},
+	"browserslist": [
+		"last 1 Chrome versions"
+	],
 	"name": "ludum-dare-46",
 	"version": "1.0.0",
 	"main": "index.js",

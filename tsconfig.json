@@ -8,6 +8,16 @@
     "emitDecoratorMetadata": true,
     "noUnusedLocals": true,
     "pretty": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~": [
+        "./index.ts"
+      ],
+      "~/*": [
+        "./*"
+      ],
+    },
     "lib": [
       "DOM",
       "esnext"

@@ -115,7 +115,7 @@ class Game {
 
 	private render() {
 		this.renderer.ctx.clearRect(0, 0, this.width, this.height);
-		this.renderer.ctx.fillStyle = "#20283d";
+		this.renderer.ctx.fillStyle = "#21283b";
 		this.renderer.ctx.fillRect(0, 0, this.width, this.height);
 
 		if (this.loadDelay === 0) {
